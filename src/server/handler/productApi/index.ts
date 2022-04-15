@@ -1,11 +1,11 @@
 import {Server} from "miragejs";
 import {ListShop} from "../../../type";
-import Sneakers574 from '../../../components/Main/img/574.svg'
-import Sneakers920 from '../../../components/Main/img/920.svg'
-import Sneakers373 from '../../../components/Main/img/373.svg'
-import Sneakers670 from '../../../components/Main/img/670.svg'
-import Sneakers5740 from '../../../components/Main/img/5740.svg'
-import SneakersXRacer from '../../../components/Main/img/x-racer.svg'
+import Sneakers574 from '../../../Components/Main/img/574.svg'
+import Sneakers920 from '../../../Components/Main/img/920.svg'
+import Sneakers373 from '../../../Components/Main/img/373.svg'
+import Sneakers670 from '../../../Components/Main/img/670.svg'
+import Sneakers5740 from '../../../Components/Main/img/5740.svg'
+import SneakersXRacer from '../../../Components/Main/img/x-racer.svg'
 
 export default function(server: Server) {
     server.get("/productApi", (schema, request) => {
